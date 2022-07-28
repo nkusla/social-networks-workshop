@@ -1,0 +1,6 @@
+Dataset name: twitch_ptbr
+
+Total number of nodes: 1912
+Total number of edges:  31299
+Average node degree: 32.73953974895397
+Density: 0.017132150575067492

@@ -1,0 +1,4 @@
+Dataset name: twitch_ptbr
+
+Average clustering coeff: 0.3198952746693515
+Global clustering coeff: 0.00014917423450860266

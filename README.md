@@ -1,6 +1,23 @@
 # Social networks workshop (Petnica August 2022)
 
-This is a code repository for social networks workshop.  
+Topics that will be covered:
+ - graph types
+ - ways of implementing graphs
+ - global graph properties
+ - graph traversals
+ - node centrality measures
+ - link prediction metricies
+
+Repository structure:
+ - `datasets/` containts three `.csv` files for each social network dataset
+ - `solutions/` containts `.txt` and `.csv` files that are solutions to each task of this workshop
+
+NOTE: `karate_club` dataset should be used for debuging and code testing</br>
+
+### Karate club image
+![karate_club_image](datasets/karate_club.png)
+
+# Tasks
 
 ### **Task 01**
 Load `twitch_ptbr` dataset and calculate following things:
@@ -12,28 +29,29 @@ Load `twitch_ptbr` dataset and calculate following things:
 - Graph density
 
 ### **Task 02**
-How many components does `scc_infect_dublin` graph have?
+How many components does `infect_dublin` graph have?
 
 ### **Task 03**
-Calculate average, global and local clustering coefficient for each node in `twitch` dataset.
+Calculate average, global and local clustering coefficient for each node in `twitch_ptbr` dataset.
 
 ### **Task 04**
 Which previously calculated metric can be used to find cliques in a graph?</br>
-Find some cliques in `twitch` dataset.
+Try to find some cliques larger than 3 in `twitch_ptbr` dataset.
 
 ### **Task 05**
-Calculate closeness centrality for each node in graph.
+Calculate closeness centrality for each node in `twitch_ptbr` graph.</br> 
+Who is the most central node in a graph? What's the diameter of this graph?
 
 ### **Task 06**
-Which two nodes have the largest number of common neightbours?
+Find top ten nodes pairs in `twitch_ptbr` graph that have the largest number of common neighbours.
 
 ### **Task 07**
-Link prediction metricies...
+Calculate Adamic-Adar index, Jaccard coefficient and Preferential attachment metricies for each node pair in `twitch_ptbr` graph.
 
-### **Ultimate task**
-Compare link prediction metricies and determine which metricies give the best predictions?
+### **Task 08** (experminetal)
+Compare link prediction metricies and determine which metric gives the best predictions and highest accuracy?
 
-## References
-- [Karate club](http://konect.cc/networks/ucidata-zachary/)
-- [Twitch](https://snap.stanford.edu/data/twitch-social-networks.html)
-- [Dublin](https://networkrepository.com/scc-infect-dublin.php)
+## Dataset sources
+- [Karate_club](http://konect.cc/networks/ucidata-zachary/)
+- [Twitch_ptbr](https://snap.stanford.edu/data/twitch-social-networks.html)
+- [Infect_dublin](https://networkrepository.com/scc-infect-dublin.php)

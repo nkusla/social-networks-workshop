@@ -1,0 +1,3 @@
+Dataset name: infect_dublin
+
+Number of components: 304

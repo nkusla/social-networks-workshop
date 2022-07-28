@@ -1,0 +1,5 @@
+Dataset name: twitch_ptbr
+
+Diameter of graph: 7
+Most central node: 127
+Maximum closeness centrality: 0.6009433962264151
