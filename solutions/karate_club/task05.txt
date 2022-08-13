@@ -1,0 +1,5 @@
+Dataset name: karate_club
+
+Diameter of graph: 5
+Most central node: 1
+Maximum closeness centrality: 0.5689655172413793

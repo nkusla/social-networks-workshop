@@ -1,0 +1,6 @@
+Dataset name: karate_club
+
+Total number of nodes: 34
+Total number of edges:  78
+Average node degree: 4.588235294117647
+Density: 0.13903743315508021

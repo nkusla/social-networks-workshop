@@ -1,0 +1,4 @@
+Dataset name: karate_club
+
+Average clustering coeff: 0.5706384782076824
+Global clustering coeff: 0.007520053475935829

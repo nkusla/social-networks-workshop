@@ -1,0 +1,5 @@
+Dataset name: karate_club
+
+Cliques larger than 3: 
+
+	[1, 2, 3, 4, 8]
