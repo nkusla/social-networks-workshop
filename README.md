@@ -43,7 +43,7 @@ Calculate closeness centrality for each node in graph.</br>
 Who is the most central node in a graph? What's the diameter of this graph?
 
 ### **Task 06**
-Find top ten nodes pairs in graph that have the largest number of common neighbours.
+Find top ten node pairs in graph that have the largest number of common neighbours.
 
 ### **Task 07**
 Calculate Adamic-Adar index, Jaccard coefficient and Preferential attachment metricies for each node pair in graph.
