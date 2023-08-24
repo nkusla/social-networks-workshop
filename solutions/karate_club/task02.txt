@@ -1,0 +1,3 @@
+Dataset name: karate_club
+
+Number of components: 1
