@@ -10,7 +10,7 @@ Topics that will be covered:
 
 Repository structure:
  - `datasets/` containts `.csv` files for each social network dataset
- - `solutions/` containts directories for each dataset with `.txt` and `.csv` files that are solutions to each task of this workshop
+ - `solutions/` containts directories for each dataset with `.txt` and `.csv` files that are solutions to each task of this workshop. Additionally, this directory contains `.ipynb` that has solution source code
 
 NOTE: `karate_club` dataset should be used for debuging and code testing</br>
 
